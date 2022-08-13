@@ -1,0 +1,10 @@
+name: melos_sample
+
+packages:
+  - app
+  - model
+  - repository
+
+scripts:
+  analyze: melos exec flutter analyze
+  pub_get: melos exec flutter pub get
