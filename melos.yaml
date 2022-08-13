@@ -6,5 +6,9 @@ packages:
   - repository
 
 scripts:
-  analyze: melos exec flutter analyze
-  pub_get: melos exec flutter pub get
+  analyze:
+    description: analyze
+    run: melos exec flutter analyze
+  pub_get:
+    description: pub get
+    run: melos exec flutter pub get
