@@ -12,3 +12,7 @@ scripts:
   pub_get:
     description: pub get
     run: melos exec flutter pub get
+
+  build_runner:
+    description: build runner
+    run: melos exec --depends-on=build_runner flutter pub run build_runner build --delete-conflicting-outputs
